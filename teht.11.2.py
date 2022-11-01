@@ -8,7 +8,7 @@ class Car:
         self.max_speed = max_speed
 
     def print_info(self):
-        print(f"Auton: {self.register_number} matkamittari: {self.odometer}")
+        print(f"Auton rekisteri: {self.register_number} matkamittari: {self.odometer}")
 
     def drive(self, trip_change):
         self.odometer = self.odometer + trip_change * self.speed
